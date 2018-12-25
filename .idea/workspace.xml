@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="884186d3-73cb-424f-af49-aa70b423451c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +22,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="622">
+              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <folding>
+                <element signature="e#40#60#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -26,22 +44,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SessionsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="675" column="36" lean-forward="true" selection-start-line="675" selection-start-column="36" selection-end-line="675" selection-end-column="36" />
+            <state relative-caret-position="550">
+              <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SessionsController.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="475">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -59,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Redirector.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="347">
-              <caret line="217" column="5" lean-forward="true" selection-start-line="217" selection-start-column="5" selection-end-line="217" selection-end-column="5" />
+              <caret line="217" column="5" selection-start-line="217" selection-start-column="5" selection-end-line="217" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -68,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
               <folding>
                 <element signature="e#7#389#0#PHP" expanded="true" />
               </folding>
@@ -97,6 +133,8 @@
       <find>user</find>
       <find>file</find>
       <find>autolo</find>
+      <find>withInput</find>
+      <find>let token = document.head</find>
     </findStrings>
     <replaceStrings>
       <replace>App\User</replace>
@@ -113,7 +151,6 @@
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Article.php" />
@@ -125,15 +162,18 @@
         <option value="$PROJECT_DIR$/resources/views/shared/_errors.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/create.blade.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/resources/views/shared/_messages.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
         <option value="$PROJECT_DIR$/app/helpers.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/sessions/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/bootstrap.js" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
       </list>
     </option>
   </component>
@@ -268,14 +308,7 @@
               <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
               <item name="weibo" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weibo" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,12 +360,12 @@
       <workItem from="1545288816791" duration="252000" />
       <workItem from="1545357688462" duration="1185000" />
       <workItem from="1545620742745" duration="3424000" />
-      <workItem from="1545720336009" duration="1839000" />
+      <workItem from="1545720336009" duration="3382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25672000" />
+    <option name="totallyTimeSpent" value="27215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -384,13 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -464,27 +490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-          <folding>
-            <element signature="e#40#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -509,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="675" column="36" lean-forward="true" selection-start-line="675" selection-start-column="36" selection-end-line="675" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Validation/Validator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -533,7 +535,7 @@
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding>
             <element signature="e#7#389#0#PHP" expanded="true" />
           </folding>
@@ -568,17 +570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Redirector.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
-          <caret line="217" column="5" lean-forward="true" selection-start-line="217" selection-start-column="5" selection-end-line="217" selection-end-column="5" />
+          <caret line="217" column="5" selection-start-line="217" selection-start-column="5" selection-end-line="217" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -591,10 +586,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SessionsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state relative-caret-position="550">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="675" column="36" selection-start-line="675" selection-start-column="36" selection-end-line="675" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#40#60#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
