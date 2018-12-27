@@ -10,6 +10,10 @@ class User extends Authenticatable
 {
     use Notifiable;
 
+    public function statuses() {
+        return $this->hasMany(Status::class);
+    }
+
     public static function boot() {
         parent::boot();
         static::creating(function($user) {
