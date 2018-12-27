@@ -10,8 +10,7 @@ class UsersTableSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
-    {
+    public function run() {
         // 用factory()辅助函数生成50个用于填充的模型
         $user = factory(User::class)->times(50)->make();
         // 在模型中插入数据
@@ -19,6 +18,8 @@ class UsersTableSeeder extends Seeder
         $user = User::find(1);
         $user->name = 'zhangsan';
         $user->email = 'zhangsan@qq.com';
+        $user->is_admin = true;
         $user->save();
     }
+
 }
