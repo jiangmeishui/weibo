@@ -10,16 +10,7 @@ class User extends Authenticatable
 {
     use Notifiable;
 
-    public function statuses() {
-        return $this->hasMany(Status::class);
-    }
 
-    public static function boot() {
-        parent::boot();
-        static::creating(function($user) {
-           $user->activation_token = str_random(30);
-        });
-    }
 
     /**
      * The attributes that are mass assignable.
@@ -38,6 +29,21 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function statuses() {
+        return $this->hasMany(Status::class);
+    }
+
+    public static function boot() {
+        parent::boot();
+        static::creating(function($user) {
+            $user->activation_token = str_random(30);
+        });
+    }
+
+    public function feed() {
+        return $this->statuses()->orderBy('created_at', 'desc');
+    }
 
     public function gravatar($size = 100)
     {
