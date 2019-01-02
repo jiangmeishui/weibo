@@ -50,4 +50,45 @@ class User extends Authenticatable
         $hash = md5(strtolower(trim($this->attributes['email'])));
         return "http://www.gravatar.com/avatar/$hash?s=$size";
     }
+
+    /**
+     * 粉丝
+     */
+    public function follower() {
+        return $this->belongsToMany(User::class, 'followers', 'user_id', 'follower_id');
+    }
+
+    /**
+     * 关注人
+     */
+    public function followings() {
+        return $this->belongsToMany(User::class, 'followers', 'follower_id', 'user_id');
+    }
+
+    /**
+     * 关注
+     */
+    public function follow($userIds) {
+        if ( ! is_array($userIds)) {
+            $userIds = compact($userIds);
+        }
+        $this->followings()->sync($userIds, false);
+    }
+
+    /**
+     * 取消关注
+     */
+    public function unFollow($userIds) {
+        if ( ! is_array($userIds)) {
+            $userIds = compact($userIds);
+        }
+        $this->followings()->detach($userIds);
+    }
+
+    /**
+     * 判断是否关注
+     */
+    public function isFollowing($userId) {
+        return $this->followings()->contains($userId);
+    }
 }
