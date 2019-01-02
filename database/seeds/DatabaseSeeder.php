@@ -16,7 +16,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             UsersTableSeeder::class,
             StatusesTableSeeder::class,
-            CommentTableSeeder::class
+            CommentTableSeeder::class,
+            FollowersTableSeeder::class,
             ]);
         Model::reguard();
     }
